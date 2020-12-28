@@ -1,0 +1,224 @@
+/* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp*/
+
+/* width */
+::-webkit-scrollbar{
+	width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+title{
+
+	font-family: "VT323";
+}
+
+
+body{
+	
+	background-color: #300a24;
+	font-family: "Noto Serif JP";
+
+	overflow-x: hidden;
+	text-align: center;
+	width: 98vw;
+
+}
+
+h1{
+
+	color: #bbb546;
+	margin-top: 0;
+}
+
+h2{
+
+	color: #bbb546;
+	margin-top: 0;
+}
+
+hr{
+
+	text-align: center;
+	width: 15vw;
+}
+
+
+p{
+	color: #c4b6b3;
+}
+
+.name{
+		
+	font-family: "Press Start 2P", sans-serif;
+	font-size: 3rem;
+	margin: 0;
+	width: 30vw;
+}
+
+
+.bigO-img{
+
+	opacity: 0.8;
+
+	margin: 0;
+	margin-top: 2vh;
+	position: relative;
+	left: 33vw;
+	width: 15vw;
+}
+
+.bigOmega-img{
+
+	opacity: 0.8;
+
+	margin: 0;
+	margin-bottom: 2vh;
+
+	position: relative;
+	right: 33vw;
+	width: 15vw;
+}
+
+.bottom-container{
+
+	margin-top: 4vw;
+}
+
+/* https://cssbuttoncreator.com/ */
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   width: 200px;
+   font-size: 1rem;
+   font-weight: 100;
+   background-color: #331226;
+   padding: 1vw 0.5vw 1vw 0.5vw;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background-color: #3F76AC;
+   /*
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   */
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.cat-gif{
+	height: 15vw;
+
+	margin: 0;
+	padding: 0;
+	border-radius: 100%;
+
+	width: 15vw;
+}
+
+
+.description-box{
+	position: relative;
+	top: 0;
+	text-align: center;
+}
+
+.description-table{
+
+	margin: 1vw 1vw 1vw 1vw;
+	position: relative;	
+	top: 0;
+}
+
+.davePhoto{
+	
+	left: 2vw;
+	width: 20vw;
+}
+
+.description-msg{
+
+	font-size: 100%;
+	left:23vw;
+	width: 73vw;
+}
+
+.hr-start{
+	margin-top: 0;
+	margin-bottom: 3vw;
+}
+
+.hr-end{
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+
+
+.mid-image{
+	border-width: 1vw;
+	border: outset;
+	border-color: #2A0820; /*darker than the bg*/
+
+	height: auto;
+	opacity: 0.05;
+
+	max-width: 97vw;
+	margin: 0; 
+	padding: 0;
+}
+
+.portafolio{
+
+}
+
+.profile{
+
+	color: #c4b6b3;
+	margin: 0;
+}
+
+.project-table{
+
+	color: white;
+	text-align: center;
+
+}
+
+.ur-img{
+
+	width: 15vw;
+}
+
